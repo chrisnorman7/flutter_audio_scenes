@@ -1,0 +1,7 @@
+comment: A scene for a card game.
+sounds:
+  shuffle:
+    comment: The shuffle sound.
+  cardSounds:
+    type: list
+    comment: The sounds which will be heard when cards are dealt.

@@ -1,0 +1,16 @@
+comment: An audio scene with a [timerSound] and [footstepSounds].
+sounds:
+  timerSound:
+    comment: The sound to be heard when the timer is ticking.
+    asset: Assets.sounds.interface.timer
+    looping: true
+  footstepSounds:
+    comment: The sounds to play when the player moves.
+    asset: Assets.sounds.footsteps.concrete
+    type: list
+  music:
+    comment: The music that will be heard throughout the level.
+    asset: Assets.sounds.music.gameLevel
+    looping: true
+    loadMode: disk
+    volume: 0.1
